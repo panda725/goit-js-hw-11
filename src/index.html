@@ -7,6 +7,24 @@
     <link rel="stylesheet" href="./sass/index.scss" />
   </head>
   <body>
+    <form class="search-form" id="search-form">
+      <div class="form-field">
+        <input
+          type="text"
+          name="searchQuery"
+          autocomplete="off"
+          placeholder="Search images..."
+          autofocus
+        />
+      </div>
+
+      <button class="search-form__button" type="submit">
+        <svg width="25" height="20">
+          <use href="./images/search.svg#icon-search"></use>
+        </svg>
+      </button>
+    </form>
+
     <script type="module" src="./index.js"></script>
   </body>
 </html>

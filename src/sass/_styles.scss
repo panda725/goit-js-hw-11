@@ -1,0 +1,29 @@
+.search-form {
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: blue;
+
+  &__button {
+    margin-left: 5px;
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: lightgray;
+    }
+  }
+}
+
+.form-field input {
+  width: 250px;
+  padding: 10px 15px;
+  outline: 1px solid #000;
+  border: none;
+  border-radius: 4px;
+}
